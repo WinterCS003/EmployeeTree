@@ -4,6 +4,9 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp 
+    employeeInfo.cpp \
+    main.cpp
 
 HEADERS += \
+    BinaryTree.h \
+    employeeInfo.h
