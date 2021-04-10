@@ -4,8 +4,6 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp \
-        triangle.cpp
+        main.cpp 
 
 HEADERS += \
-    triangle.h
