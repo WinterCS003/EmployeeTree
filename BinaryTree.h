@@ -204,6 +204,7 @@ BinaryTree<T>& BinaryTree<T>::operator=(const BinaryTree& tree) // IN - tree to 
 {
     destroySubTree(this->root);
     assign(tree.root);
+    return *this;
 }
 
 
@@ -344,6 +345,7 @@ bool BinaryTree<T>::deleteNode(T val, // IN - value to remove
         std::cout << "Node not found" << std::endl;
         return false;
     }
+    return true;
 }
 
 /**********************************************************
