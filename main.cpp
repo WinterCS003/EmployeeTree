@@ -9,7 +9,7 @@
 #include <iostream>
 #include <string>
 
-#include "BinaryTree.h"
+#include "binarySearchTree.h"
 #include "employeeInfo.h"
 
 /****************************************************************
